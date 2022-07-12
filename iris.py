@@ -6,11 +6,7 @@ import seaborn as sns
 df = pd.read_csv("wfp_food_prices_pakistan.csv")
 
 from sklearn.linear_model import LinearRegressions
-from sklearn.tree import DecisionTreeRegressor
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.neighbors import KNeighborsRegressor
-from sklearn.svm import SVR
-from sklearn.metrics import r2_score
+
 
 from sklearn.preprocessing import LabelEncoder
 cols = ['cmname', 'unit', 'category', 'currency', 'country', 'admname', 'adm1id', 'mktname', 'cmid', 'catid', 'sn']
