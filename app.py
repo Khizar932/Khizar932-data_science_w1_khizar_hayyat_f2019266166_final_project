@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 import pickle
 
-model = pickle.load(open('iri.pkl', 'wb'))
+model = pickle.load(open('iri.pkl', 'rb'))
 
 app = Flask(__name__)
 
